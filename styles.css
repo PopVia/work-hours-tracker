@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  width: 300px;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+input {
+  margin-top: 10px;
+  padding: 10px;
+  width: calc(100% - 22px);
+  box-sizing: border-box;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 14px;
+  color: green;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
