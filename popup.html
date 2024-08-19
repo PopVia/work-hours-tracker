@@ -2,28 +2,9 @@
 <html>
 <head>
   <title>Work Hours Tracker</title>
-  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Work Hours Tracker</h1>
-    <div class="timer-section">
-      <div id="timer-display">0h 0m 0s</div>
-      <button id="start-timer">Start Timer</button>
-      <button id="stop-timer" disabled>Stop Timer</button>
-    </div>
-    <div class="manual-entry-section">
-      <p>Manual Entry</p>
-      <input type="date" id="entry-date">
-      <input type="number" id="entry-hours" placeholder="Hours" min="0">
-      <input type="number" id="entry-minutes" placeholder="Minutes" min="0" max="59">
-      <button id="add-entry">Add Entry</button>
-    </div>
-    <div class="dashboard-section">
-      <button id="view-dashboard">View Dashboard</button>
-    </div>
-    <div id="message"></div>
-  </div>
+  <div id="root"></div>
   <script src="popup.js"></script>
 </body>
 </html>
