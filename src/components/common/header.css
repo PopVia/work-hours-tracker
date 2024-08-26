@@ -1,0 +1,41 @@
+@import url('../../colors.css');
+
+.header {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 18px;
+}
+
+.window-manangment-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 4px;
+}
+
+.btn-minimize {
+    border: none;
+    background-color: inherit;
+    color: inherit;
+}
+
+.btn-close {
+    border: none;
+    background-color: inherit;
+    color: inherit;
+}
+
