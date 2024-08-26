@@ -1,3 +1,3 @@
 chrome.runtime.onInstalled.addListener(() => {
-  chrome.storage.local.set({ workHours: {} });
+  chrome.storage.sync.set({ projects: [] });
 });
