@@ -1,0 +1,64 @@
+@import url('../../colors.css');
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeframe-divider {
+    background-color: var(--color-gray);
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 8px;
+}
+
+.project-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
+
+.divider-txt {
+    font-size: 10px;
+}
+
+.timeframe-divider-sm {
+    color: var(--color-gray);
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    padding: 4px;
+}
+
+.divider-sm-txt {
+    font-size: 10px;
+}
+
+.project-title {
+    font-size: 10px;
+    color: var(--color-primary);
+    max-width: 250px;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.project-desc {
+    max-width: 250px;
+    font-size: 10px;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    white-space: nowrap;
+}

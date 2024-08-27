@@ -1,0 +1,35 @@
+@import url("../../colors.css");
+
+.nav-footer {
+    margin: 16px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 8px;
+}
+
+.circle-btn {
+    background-color: var(--color-primary);
+    padding: 4px;
+    color: var(--color-white);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.circle-btn:hover {
+    cursor: pointer;
+    background-color: var(--color-accent);
+    color: var(--color-gray);
+}
+
+.nav-txt {
+    font-size: 12px;
+}
