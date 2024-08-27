@@ -1,11 +1,12 @@
 @import url("../../colors.css");
 
 .nav-footer {
-    margin: 16px 0px;
+    padding: 16px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    border-top: 1px black solid;
 }
 
 .nav-option {

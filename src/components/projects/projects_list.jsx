@@ -33,20 +33,25 @@ export const ProjectsList = () => {
         <h3 className="divider-txt">This Week</h3>
         <h3 className="divider-txt">14 HR 38 MIN</h3>
       </div>
-      <div className="timeframe-divider-sm">
-        <h3 className="divider-sm-txt">Today</h3>
-        <h3 className="divider-sm-txt">4 HR 30 MIN</h3>
-      </div>
-      {projects.map((project) => {
-        return <ProjectItem project={project}></ProjectItem>;
-      })}
+      <ul className="scrollable-list">
+        <div className="timeframe-divider-sm">
+          <h3 className="divider-sm-txt">Today</h3>
+          <h3 className="divider-sm-txt">4 HR 30 MIN</h3>
+        </div>
+        {projects.map((project) => {
+          return <ProjectItem project={project}></ProjectItem>;
+        })}
+      </ul>
+
       <div className="timeframe-divider">
         <h3 className="divider-txt">Yesterday</h3>
         <h3 className="divider-txt">3 HR 18 MIN</h3>
       </div>
-      {projects.map((project) => {
-        return <ProjectItem project={project}></ProjectItem>;
-      })}
+      <ul className="scrollable-list">
+        {projects.map((project) => {
+          return <ProjectItem project={project}></ProjectItem>;
+        })}
+      </ul>
     </div>
   );
 };

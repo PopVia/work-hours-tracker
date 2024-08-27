@@ -15,6 +15,20 @@ chrome.runtime.onInstalled.addListener(() => {
       startTime: new Date().toISOString(),
       duration: 0,
     },
+    {
+      id: 345, // Unique ID
+      title: "Project 3",
+      description: "Description for Project 3",
+      startTime: new Date().toISOString(),
+      duration: 0,
+    },
+    {
+      id: 456, // Unique ID
+      title: "Project 4",
+      description: "Description for Project 4",
+      startTime: new Date().toISOString(),
+      duration: 0,
+    },
     // Add more projects as needed
   ];
 
