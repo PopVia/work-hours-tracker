@@ -1,0 +1,43 @@
+@import url('../../colors.css');
+
+.project-form {
+    padding: 16px;
+}
+
+.form-column { 
+    padding: 0px 16px;
+    display: flex block;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4px;
+}
+
+.form-field {
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.form-field-lg {
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 100px;
+    width: 100%;
+}
+
+
+.submit-btn {
+    margin-top: 8px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 8px;
+    border: none;
+}
+

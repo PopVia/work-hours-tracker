@@ -29,13 +29,13 @@
     border: none;
 }
 
-
 .divider-txt {
     font-size: 10px;
 }
 
 .timeframe-divider-sm {
-    color: var(--color-gray);
+    color: grey;
+    border-top: 1px solid black;;
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: row;
@@ -68,6 +68,7 @@
 }
 
 .scrollable-list {
+    min-height: 0;
     height: 125px;
     overflow: scroll;
     margin: 0;

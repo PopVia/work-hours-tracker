@@ -40,7 +40,8 @@
 }
 
 .timer-card {
-    border: 1px black solid;
+    border: 2px black solid;
+    box-shadow: 3px 3px rgb(185, 185, 185);
     border-radius: 12px;
     padding: 8px;
     display: flex;
@@ -71,14 +72,23 @@
 
 
 .btn-play {
+    padding: 0;
+    margin: 0;
+    border: 3px solid green;
     color: green;
 }
 
 .btn-pause {
-    color: grey;
+    padding: 0;
+    margin: 0;
+    border: 3px solid var(--color-primary);
+    color: var(--color-primary);
 }
 
 .btn-stop {
+    padding: 0;
+    margin: 0;
+    border: 3px solid red;
     color: red;
 }
 
@@ -93,4 +103,29 @@
 
 .new-project-btn:hover {
     color: var(--color-gray);
+}
+
+.timer-management-btns .material-symbols-outlined {
+    border-radius: 50%;
+    font-size: 32px;
+    
+    display: inline-flex;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.timer-management-btns .material-symbols-outlined {
+    border-radius: 50%;
+    box-shadow: 2px 2px 1px 1px grey;
+}
+
+.timer-management-btns .material-symbols-outlined:hover {
+    box-shadow: inset 1px 1px 3px 1px grey;
+}
+
+.timer-management-btns .greyed-out {
+    pointer-events: none; 
+    cursor: not-allowed; 
+    color: gray;    
+    border: 3px solid grey;
+    box-shadow: none;
 }

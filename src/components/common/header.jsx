@@ -17,7 +17,7 @@ export const Header = ({ toggleMiniatureView, isMiniature }) => {
         >
           {isMiniature ? "arrow_drop_down" : "arrow_drop_up"}
         </span>
-        <span className="btn-close material-symbols-outlined">close</span>
+        <span className="btn-close material-symbols-outlined">X</span>
       </div>
     </div>
   );
